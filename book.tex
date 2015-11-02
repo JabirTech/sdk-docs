@@ -21,4 +21,65 @@ JabirOS, was a GNU/Linux based operating system first. It was a remaster of Ubun
 \item You need to know how to work with JabirOS (or FreeBSD, etc. Every FreeBSD based operating systems are suitable for learning). 
 \item You need to know how to run or package your final product. 
 \end{itemize}
+\subsection{What will you learn?}
+\begin{itemize}
+\item Program in JabirOS SDK
+\item Run your program
+\item Debug your programs
+\item Publish your program
+\end{itemize}
+\newpage{}
+\section{A brief review on Ruby}
+Ruby is one of the easiest language on this world. It's a well-designed language, too. If you want to develop your ideas as fast as you can, you \textbf{must} know how to code in ruby. In this part, we're going to review Ruby. 
+\subsection{Structure of a Ruby script}
+A ruby script is usually made up of two parts, like other script languages. If you download a ruby script, you will see something like this:
+\begin{verbatim}
+#!/usr/bin/ruby 
+
+REST OF THE CODE
+
+\end{verbatim}
+
+or it may look like this:
+
+\begin{verbatim}
+#!/usr/bin/env ruby
+
+REST OF THE CODE
+
+\end{verbatim}
+
+It actually depends on who programmed it. A lot of people prefer to use the extention \textit{*.rb} in their ruby scripts.\footnote{When you use this extention, you'll no more need to use shbang structure}
+
+\subsection{Blocks in Ruby}
+If you code in python, you need to use indents in blocks. In ruby, indents are optional, but every block usually starts with a \textit{do} and ends with an \textit{end}. A function block starts with \textit{def} and ends with and \textit{end}. And other blocks have similar endings, but starts are different, and it depends on which kind of block you want to use. Here are some blocks :
+\subsubsection{A simple \textit{do} block}
+
+\begin{verbatim}
+a = [1, 3, 4]
+a.each do |n|
+  puts n
+end
+\end{verbatim}
+
+\subsubsection{\textit{if...else} block}
+
+\begin{verbatim}
+if n == 0
+ puts n
+else
+ puts n-1
+end
+\end{verbatim}
+
+\subsection{Classes}
+Ruby classes are as simple as other blocks in this language. But there are two tips you must know about classes (and also modules\footnote{Modules in ruby are almost similar. }). 
+\begin{enumerate}
+\item If you want to use a method directly, don't forget to use self keyword before methods.
+\item Classes and Modules are considered as constants. So, they shall be started by a capitalized letter.
+\end{enumerate}
+
+\subsection{Gemfile}
+This is not actually a part of ruby programming, but it's necessary. You write required gems in this file, and when you run \textit{bundler}, it'll install all gems in an isolated form. 
+
 \end{document}
