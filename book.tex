@@ -92,4 +92,29 @@ This option is used for running a certain ruby command in terminal, and see the 
 In this chapter, we reviewed Ruby basics. In next chapters, we'll learn how to install SDK, and how to use it. If you don't have Ruby installed on your computer, you can install it by following the instruction of its website, ruby-lang.org. 
 \newpage
 
+\section{Setup Environment}
+\subsection{How to Install SDK}
+First, you need to install \textit{git} on your JabirOS machine. It's available in \textit{pkg} repositories. 
+
+Then, you need to clone our SDK repository, like this :
+\begin{verbatim}
+git clone https://github.com/JabirTech/SDK
+\end{verbatim}
+Now, you need to copy SDK folder to a certain path. We suggest this :
+\begin{verbatim}
+/usr/local/share/SDK
+\end{verbatim}
+and now, you can code in JabirOS SDK. 
+
+\subsection{First Program}
+\textbf{IRB}, is ruby's REPL. We here write our first program using this REPL. For running REPL with SDK, type this command in command line :
+\begin{verbatim}
+irb -r /usr/local/share/SDK/sdk.rb
+\end{verbatim}
+and then, in REPL, type :
+\begin{verbatim}
+JabirOS::Terminal.writeln("Hello, World!")
+\end{verbatim}
+Congragulations, you wrote your first program using JabirOS SDK. But, SDK's Libraries are a lot! And, you'll learn all of them after reading this book. 
+\newpage{}
 \end{document}
