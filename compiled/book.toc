@@ -13,3 +13,6 @@
 \contentsline {subsubsection}{\numberline {2.5.1}-r}{5}
 \contentsline {subsubsection}{\numberline {2.5.2}-e}{5}
 \contentsline {subsection}{\numberline {2.6}What will you learn in future?}{6}
+\contentsline {section}{\numberline {3}Setup Environment}{7}
+\contentsline {subsection}{\numberline {3.1}How to Install SDK}{7}
+\contentsline {subsection}{\numberline {3.2}First Program}{7}
